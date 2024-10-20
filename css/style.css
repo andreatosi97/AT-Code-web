@@ -2,8 +2,8 @@
 
 :root {
   --tint: #00e7e0;
-  --dark-bg: #1f242d;
-  --light-bg: #292e39;
+  --light-bg: #212121;
+  --dark-bg: #171717;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
   color: gainsboro;
   line-height: 1.5;
   text-align: justify;
-  word-break: break-word;
+  /* word-break: break-word; */
 }
 
 /* Tag */
@@ -129,7 +129,6 @@ th {
 
 #particle-sys-container {
   position: relative;
-  width: 98.9vw;
   height: 99.6vh;
   background-color: var(--dark-bg);
 }
